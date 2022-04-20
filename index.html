@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="prototype.js"></script>
+    <script src="grid-component.js"></script>
+
+    <title>Grid Component</title>
+
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body>
+    <script>
+      let config = {
+        add: true,
+        module: 123,
+        workflow: [
+          {
+            id: "01",
+            label: "A Fazer",
+            add: true,
+            style: {
+              border: "#CCC",
+              background: "#EEE",
+            },
+          },
+          {
+            id: "02",
+            label: "Em Andamento",
+            add: true,
+            style: {
+              border: "#CCC",
+              background: "#EEE",
+            },
+          },
+          {
+            id: "03",
+            label: "Finalizado",
+            add: true,
+            style: {
+              border: "#CCC",
+              background: "#EEE",
+            },
+          },
+        ],
+      };
+
+      let grid = new GridComponent(config);
+      grid.init();
+    </script>
+  </body>
+</html>

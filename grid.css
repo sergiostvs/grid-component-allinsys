@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  background: #fff;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding: 2rem;
+  margin-top: 32px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.wkf {
+  background: #eee;
+  border: 1px solid #fd951f11;
+
+  border-radius: 4px;
+  padding: 1rem;
+  gap: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background: #eee;
+  border: 1px solid #fd951f11;
+
+  width: 250px;
+
+  border-radius: 4px;
+  padding: 1rem;
+
+  text-align: center;
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  transition: filter .2s;
+}
+
+.btn:hover {
+  filter: brightness(95%);
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 2px -1px #d6d6d6;
+
+  padding: 16px;
+  width: 250px;
+  min-height: 5rem;
+
+  border-radius: 4px;
+
+  font-weight: 600;
+  font-size: 18px;
+
+  cursor: grab;
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.tg-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .6rem;
+}
+
+.tag-1 {
+  background: #F44336;
+
+  min-width: 70px;
+
+  border-radius: 5px;
+
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+
+  font-size: 0.7rem;
+  text-align: center;
+  color: #fff;
+}
+
+.tag-2 {
+  background: #3d81ff;
+
+  min-width: 70px;
+
+  border-radius: 5px;
+
+  padding: 0.2rem .5rem;
+  margin-bottom: 1rem;
+
+  font-size: 0.7rem;
+  text-align: center;
+  color: #fff;
+}
+
+.date {
+  background: #e08283;
+
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 80px;
+
+  border-radius: 5px;
+
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+}
+
+/* .title {
+    padding: 16px;
+    margin: 0;
+    color: #000;
+    font-weight: 400;
+} */
+
+/* .dropzone {
+    padding: 16px;
+    min-width: 282px;
+    min-height: 200px;
+} */
+
+/* .content {
+    color: #000;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+} */
